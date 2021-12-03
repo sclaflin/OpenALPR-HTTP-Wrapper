@@ -1,0 +1,32 @@
+{
+  "name": "open-alpr-http-wrapper",
+  "version": "0.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildContainer": "docker build -t 'sclaflin/open-alpr-http-wrapper' .",
+    "start": "/usr/bin/node index.js"
+  },
+  "author": "Sean Claflin",
+  "license": "MIT",
+  "description": "A thin wrapper arount the OpenALPR cli program",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "yaml": "^1.10.2"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sclaflin/OpenALPR-HTTP-Wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sclaflin/OpenALPR-HTTP-Wrapper/issues"
+  },
+  "homepage": "https://github.com/sclaflin/OpenALPR-HTTP-Wrapper#readme"
+}
