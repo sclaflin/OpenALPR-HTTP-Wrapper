@@ -3,6 +3,9 @@ FROM ubuntu:16.04
 LABEL description="Open ALPR HTTP Wrapper"
 LABEL maintainer "seanclaflin@protonmail.com"
 
+# Workaround for devcontainer to use bash instead of sh
+ENV SHELL /bin/bash
+
 # Install some binaries
 RUN apt update \
     && apt upgrade -y \
