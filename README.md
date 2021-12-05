@@ -16,7 +16,7 @@ Docker Compose:
 ```yaml
 version: "3.9"
 services:
-  frigate:
+  open-alpr-http-wrapper:
     container_name: open-alpr-http-wrapper
     restart: unless-stopped
     image: sclaflin/open-alpr-http-wrapper:latest
