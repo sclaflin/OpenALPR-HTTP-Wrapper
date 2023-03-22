@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildImage": "docker build -t 'sclaflin/open-alpr-http-wrapper' .",
+    "buildImage": "docker build -t sclaflin/open-alpr-http-wrapper:`npm pkg get version | sed 's/\"//g'` .",
     "start": "/usr/bin/node index.js"
   },
   "author": "Sean Claflin",
