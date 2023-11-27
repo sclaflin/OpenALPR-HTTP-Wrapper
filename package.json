@@ -1,16 +1,16 @@
 {
-  "name": "open-alpr-http-wrapper",
-  "version": "0.2.1",
+  "name": "open-alpr-http-wrapper-snapshot",
+  "version": "0.2.1.1",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildImage": "docker build -t sclaflin/open-alpr-http-wrapper:`npm pkg get version | sed 's/\"//g'` .",
+    "buildImage": "docker build -t DuMees/open-alpr-http-wrapper-snapshot:`npm pkg get version | sed 's/\"//g'` .",
     "start": "/usr/bin/node index.js"
   },
-  "author": "Sean Claflin",
+  "author": "Sean Claflin Modified by DuMees",
   "license": "MIT",
-  "description": "A thin wrapper arount the OpenALPR cli program",
+  "description": "A thin wrapper arount the OpenALPR cli program and snapshot via url",
   "dependencies": {
     "express": "^4.17.1",
     "multer": "^1.4.3",
@@ -23,10 +23,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sclaflin/OpenALPR-HTTP-Wrapper.git"
+    "url": "git+https://github.com/DuMees/OpenALPR-HTTP-Wrapper-Snapshot.git"
   },
   "bugs": {
-    "url": "https://github.com/sclaflin/OpenALPR-HTTP-Wrapper/issues"
+    "url": "https://github.com/DuMees/OpenALPR-HTTP-Wrapper-Snapshot/issues"
   },
-  "homepage": "https://github.com/sclaflin/OpenALPR-HTTP-Wrapper#readme"
+  "homepage": "https://github.com/DuMees/OpenALPR-HTTP-Wrapper-Snapshot#readme"
 }
