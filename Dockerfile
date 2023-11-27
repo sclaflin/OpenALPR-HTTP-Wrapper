@@ -1,8 +1,8 @@
 # Compile alpr
 FROM ubuntu:20.04
 
-LABEL description="Open ALPR HTTP Wrapper"
-LABEL maintainer "seanclaflin@protonmail.com"
+LABEL description="Open ALPR HTTP Wrapper with Snapshot via Url"
+LABEL maintainer "remy@koelemij.eu"
 
 # Workaround for devcontainer to use bash instead of sh
 ENV SHELL /bin/bash
